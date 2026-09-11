@@ -25,6 +25,16 @@ html,body{height:100%;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,
 .btn.ghost{background:transparent;border:1px solid rgba(11,11,11,0.06);color:var(--deep)}
 .hero-visual{height:300px;position:relative}
 .hero-svg{width:100%;height:100%}
+/* avatar on the right of the intro */
+.hero-avatar{
+  width:160px;
+  height:auto;
+  border-radius:12px;
+  display:block;
+  margin-left:auto; /* align to the right column */
+  box-shadow:0 8px 30px rgba(11,11,11,0.08);
+  border:4px solid rgba(255,255,255,0.6);
+}
 .section{padding:48px 0}
 .section-title{font-family:Playfair Display,serif;font-size:28px;margin-bottom:18px}
 .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
@@ -77,6 +87,8 @@ html,body{height:100%;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,
   .hero-visual{height:220px}
   .timeline-item{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
+  /* smaller avatar on mobile */
+  .hero-avatar{width:120px;margin:0 auto 18px;border-width:3px}
 }
 
 /* print styles for CV */
