@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>何美佳（Agnes）——视觉设计师 · 作品与简历</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">何美佳 / Agnes</div>
+      <ul class="nav-links">
+        <li><a href="#hero">首页</a></li>
+        <li><a href="#education">教育</a></li>
+        <li><a href="#experience">经历</a></li>
+        <li><a href="#research">科研</a></li>
+        <li><a href="#awards">获奖</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-inner">
+        <h1 class="name">何美佳<span class="slash"> / </span><span class="alt">Agnes</span></h1>
+        <p class="tagline">视觉设计师 · 正在攻读艺术科技与商业硕士 — 擅长视觉传达、动态图像与互动设计</p>
+        <div class="cta">
+          <a class="btn" href="#experience">查看经历</a>
+          <button class="btn ghost" id="download-cv">打印 / 下载简历</button>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <!-- subtle decorative svg -->
+        <svg viewBox="0 0 800 600" class="hero-svg" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0" stop-color="#ff5cae" stop-opacity="0.95"/>
+              <stop offset="1" stop-color="#0b0b0b" stop-opacity="0.95"/>
+            </linearGradient>
+            <filter id="grain"><feTurbulence baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#g)" opacity="0.08"></rect>
+          <g filter="url(#grain)">
+            <circle cx="520" cy="160" r="180" fill="#ff5cae" opacity="0.06"></circle>
+            <circle cx="220" cy="420" r="220" fill="#000" opacity="0.06"></circle>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section id="education" class="container section fade-in">
+      <h2 class="section-title">教育经历</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>成都信息工程大学</h3>
+          <p class="muted">艺术学士 — 视觉传达设计 / 网络广告艺术（2021.09 – 2025.06）</p>
+          <p>综合绩点 GPA: 3.83 / 5</p>
+        </article>
+        <article class="card">
+          <h3>岭南大学</h3>
+          <p class="muted">硕士在读 — 艺术科技与商业</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="container section fade-in">
+      <h2 class="section-title">工作经历</h2>
+      <div class="timeline" id="timeline">
+        <div class="timeline-item" data-year="2026.05–2026.08">
+          <div class="time">2026.05 – 2026.08</div>
+          <div class="content">
+            <h3>成都超有爱科技 — 美术编辑助理实习生</h3>
+            <p class="muted">薄荷阅读 · 互动小说制作</p>
+            <p>负责人物与场景动画制作、场景图生成与修复；3个月协助上线互动小说 6 本。工具：SPINE、AE、AI、PS；AI 辅助工具：Gemini、Liblib、Seedance、Codex、ChatGPT。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2025.03–2025.06">
+          <div class="time">2025.03 – 2025.06</div>
+          <div class="content">
+            <h3>四川广播电视台融媒节目部 — 导演实习生</h3>
+            <p class="muted">参与节目《成长吧！大熊猫 2025》视觉策划与制作</p>
+            <p>从前期视觉策划、拍摄现场协助到后期视觉处理；为节目组绘制水墨熊猫肖像画 45 张并应用于周边。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2023.03–2024.03">
+          <div class="time">2023.03 – 2024.03</div>
+          <div class="content">
+            <h3>四川省龙泉驿区洛带镇团委 — 兼职副书记</h3>
+            <p class="muted">青年教育与志愿服务活动策划执行</p>
+            <p>组织并参与 10+ 次主题教育与志愿活动；推动线上 "智慧团建" 工作，完成团组织整理与转接等任务。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="container section fade-in">
+      <h2 class="section-title">科研成果 & 专利</h2>
+      <ul class="research-list">
+        <li>校级创新训练项目（已结项）</li>
+        <li>外观设计专利 — 2024302774001：河口纱灯非遗品牌形象 IP 设计</li>
+        <li>国家级创新训练项目（已结项） — 202410621035：《忽看诗文处，画满巴蜀地》数字化图像创新设计；成果含两篇公开发表论文</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container section fade-in">
+      <h2 class="section-title">代表作品 · 作品集（示例）</h2>
+      <p class="muted">点击卡片查看项目详情（可替换为你的真实作品图片与文字）。</p>
+      <div class="projects-grid">
+        <article class="project-card" data-title="水墨熊猫肖像系列" data-desc="为《成长吧！大熊猫 2025》节目绘制的水墨风熊猫肖像系列，已应用于节目周边与海报" data-img="https://via.placeholder.com/1200x800?text=Ink+Panda">
+          <img src="https://via.placeholder.com/600x360?text=Ink+Panda" alt="水墨熊猫肖像"/>
+          <div class="project-meta">
+            <h3>水墨熊猫肖像系列</h3>
+            <p class="muted">电视节目视觉 · 45 张已用于节目</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-title="互动小说场景动画" data-desc="为薄荷阅读互动小说制作的人物与场景动画，参与 6 本互动小说上线" data-img="https://via.placeholder.com/1200x800?text=Interactive+Novel">
+          <img src="https://via.placeholder.com/600x360?text=Interactive+Novel" alt="互动小说场景"/>
+          <div class="project-meta">
+            <h3>互动小说场景动画</h3>
+            <p class="muted">SPINE / AE / AI 辅助工具</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-title="非遗品牌形象 IP 设计" data-desc="河口纱灯非遗品牌形象设计（外观设计专利：2024302774001）" data-img="https://via.placeholder.com/1200x800?text=Heritage+IP">
+          <img src="https://via.placeholder.com/600x360?text=Heritage+IP" alt="非遗品牌形象"/>
+          <div class="project-meta">
+            <h3>非遗品牌形象 IP</h3>
+            <p class="muted">外观设计专利 · 品牌应用</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- modal -->
+      <div id="project-modal" class="modal" aria-hidden="true">
+        <div class="modal-inner">
+          <button class="modal-close" aria-label="关闭">×</button>
+          <div class="modal-media">
+            <img id="modal-img" src="" alt="项目图像">
+          </div>
+          <div class="modal-body">
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc" class="muted"></p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="awards" class="container section fade-in">
+      <h2 class="section-title">获奖经历</h2>
+      <div class="awards-grid">
+        <table class="awards-table">
+          <thead><tr><th>时间</th><th>奖项</th></tr></thead>
+          <tbody>
+            <tr><td>2022.08</td><td>第十四届全国大广赛四川赛区 一等奖</td></tr>
+            <tr><td>2023.08</td><td>第十五届全国大广赛四川赛区 二等奖</td></tr>
+            <tr><td>2023.10</td><td>四川省数字艺术创意设计大赛 一等奖/二等奖</td></tr>
+            <tr><td>2024.05</td><td>米兰设计周中国高校优秀作品展 四川赛区 三等奖</td></tr>
+            <tr><td>2024.08</td><td>第 12 届未来设计师 全国高校数字艺术设计大赛 三等奖</td></tr>
+            <tr><td>2023.11</td><td>四川高校志愿服务项目大赛创意赛道 银奖</td></tr>
+            <tr><td>2024.05</td><td>挑战杯 四川省大学生创业计划竞赛 铜奖</td></tr>
+            <tr><td>2024.10</td><td>iCAN 大学生创新创业大赛（西南赛区）优胜奖</td></tr>
+            <tr><td>2023.08</td><td>共赋未来 创益大会 全国二等奖</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="skills" class="container section fade-in">
+      <h2 class="section-title">技能 & 证书</h2>
+      <div class="skills-grid">
+        <div class="skill-tags">
+          <span class="tag">视觉传达</span>
+          <span class="tag">动态图像</span>
+          <span class="tag">交互设计</span>
+          <span class="tag">品牌视觉</span>
+          <span class="tag">AI 辅助创作</span>
+        </div>
+
+        <div class="skill-bars">
+          <div class="skill-row">
+            <div class="skill-name">Photoshop / Illustrator</div>
+            <div class="bar" data-percent="90"><div class="fill"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-name">After Effects / SPINE</div>
+            <div class="bar" data-percent="82"><div class="fill"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-name">交互与界面设计（Figma）</div>
+            <div class="bar" data-percent="78"><div class="fill"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-name">AI / 生成式工具</div>
+            <div class="bar" data-percent="75"><div class="fill"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="certs">
+        <p>语言能力：CET4、IELTS 5.5</p>
+        <p>普通话二级甲等证书</p>
+      </div>
+    </section>
+
+    <section id="contact" class="container section fade-in">
+      <h2 class="section-title">联系我</h2>
+      <div class="contact-grid">
+        <div>
+          <p><strong>姓名</strong>：何美佳 / Agnes</p>
+          <p><strong>电话</strong>：(+86) 18224090584 / (+852) 46376417</p>
+          <p><strong>邮箱</strong>：<a href="mailto:meijiahe@LN.hk">meijiahe@LN.hk</a></p>
+        </div>
+        <div>
+          <p>可按需提供完整作品集链接与项目说明文档。</p>
+          <button class="btn" id="open-portfolio">查看作品集（演示）</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer container">
+      <p>© 2026 何美佳 / Agnes — 视觉设计师</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
